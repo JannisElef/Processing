@@ -1,8 +1,9 @@
 ## My Personal Processing Repository
- <p>It's just for storing/ sharing some of my processing sketches/ projects.</p>
+ <br>
  <br>
 
  <p>Here are some examples:</p>
+ <br>
 
  <a href="https://github.com/JannisElef/Processing/blob/main/sketches/minecraft_mosaic/"><strong>Minecraft-mosaic maker</strong></a>
 

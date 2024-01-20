@@ -1,17 +1,15 @@
 ## My Personal Processing Repository
- <br>
- <br>
 
- <p>Here are some examples:</p>
+ <p>Here are some of my favourite examples:</p>
  <br>
 
  <a href="https://github.com/JannisElef/Processing/blob/main/sketches/minecraft_mosaic/"><strong>Minecraft-mosaic maker</strong></a>
+ <br>
 
  <p>The sketch takes an image/ frames and displays them using minecraft block-textures by finding the closest matching texture for a given area using the average color of the area and texture.</p>
 
  <img src="https://github.com/JannisElef/Processing/blob/main/sketches/minecraft_mosaic/sample_image.png">
-
-
+ <br>
 <details>
   <summary><strong>More Examples</strong></summary>
   <br>
@@ -45,7 +43,7 @@
 
 ## Sketch-Use-Guidance
 
- <p>When testing a sketch, consider the following:</p>
+ <p>When wanting to try out a sketch, consider the following:</p>
 
 * Download the whole folder -> sketch needs to be inside its own folder to work
 * Generally the keyboard-shortcut for saving an image is **ENTER**

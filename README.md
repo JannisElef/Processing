@@ -59,6 +59,6 @@
  
  So I've decided to dig through the `processing-4.x.x/lib/theme/theme.txt` and mark all important keyword-highlighting colors and primary UI-elements to make it more easy to edit/ customize them in the future, thereby also creating my own <a href="https://github.com/JannisElef/Processing/blob/main/theme.txt"><strong>theme.txt</strong></a>, to atleast squeeze out some customization.
 
- \<Inspired by the <a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle Theme</strong></a>\>
+ \<Inspired by the <a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a> Theme\>
  
 <img src="https://github.com/JannisElef/Processing/blob/main/theme_screenshot.png">

@@ -15,7 +15,8 @@
   <summary>More Examples</summary>
   <ol>
     <li>
-      <a href="https://github.com/JannisElef/Processing/blob/main/procedual_bauhaus_background_generator/?raw=false">procedual bauhaus background generator (idk)</a>
+      <a href="https://github.com/JannisElef/Processing/blob/main/procedual_bauhaus_background_generator/?raw=false"> Procedual bauhaus background generator (idk)</a>
+	<p>Using pre-defined shapes and different palettes to generate a random and unique variety of images.</p>
       <ul>
 	<details><summary>Example image</summary><img src="https://github.com/JannisElef/Processing/blob/main/procedual_bauhaus_background_generator/sample_image.png"></details>
       </ul>

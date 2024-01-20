@@ -334,8 +334,8 @@ editor.token.operator.style = #006698,bold
 
 editor.token.label.style = #c85b27,bold
 
-editor.token.comment1.style = #629755,bold
-editor.token.comment2.style = #629755,bold
+editor.token.comment1.style = #629756,bold
+editor.token.comment2.style = #629756,bold
 
 editor.token.invalid.style = #656565,bold
 

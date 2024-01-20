@@ -12,7 +12,7 @@
     <li>
       <a href="https://github.com/JannisElef/Processing/blob/main/procedual_bauhaus_background_generator/?raw=false">procedual bauhaus background generator (idk)</a>
       <ul>
-	<summary>Example image</summary><ol><li>![alt text](https://github.com/JannisElef/Processing/blob/main/minecraft_mosaic/sample_image.png?raw=true)</li></ol>
+	<details><summary>Example image</summary><ol>![alt text](https://github.com/JannisElef/Processing/blob/main/minecraft_mosaic/sample_image.png?raw=true)</ol></details>
       </ul>
     </li>
   </ol>

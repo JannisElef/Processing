@@ -1,0 +1,15 @@
+String string = "example";
+//test
+CORNERS
+void setup() {
+	size(1000, 1000);
+	for(int tmp = 0; tmp < 100; tmp++) { 
+		this.string
+		if hi
+ 	}
+}
+class lol {
+	public void function() {
+		background();
+	}
+}

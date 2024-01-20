@@ -49,4 +49,16 @@
 * Generally the keyboard-shortcut for saving an image is **ENTER**
 * Other sketches may offer more key-functionality like in- or decreasing a sketch-cruital value with **UP** or **DOWN**
   --> more keyCodes, etc. depending on the sketch may be found in the function *keyPressed()* it's generally the last function in a sketch
+
+
+ ## My Processing IDE
+
+ <p>The Processing IDE sucks, versions 4.x did come with more theme selection but the lack of font customization or features like auto-closing brackets is annoying. </p>
+ <p>Using an external editor and running the sketches from the command line is just an temporary solution, the sweet "<strong>Run</strong>" button is just too convenient to miss out on.</p>
  <br>
+ 
+ So I've decided to dig through the `processing-4.x.x/lib/theme/theme.txt` and mark all important keyword-highlighting colors and primary UI-elements to make it more easy to edit/ customize them in the future, thereby also creating my own <a href="https://github.com/JannisElef/Processing/blob/main/theme.txt"><strong>theme.txt</strong></a>, to atleast squeeze out some customization.
+
+ \<Inspired by the <a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle Theme</strong></a>\>
+ 
+<img src="https://github.com/JannisElef/Processing/blob/main/theme_screenshot.png">

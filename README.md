@@ -1,14 +1,14 @@
 # Personal Processing Repository
- It's just for storing/ sharing some of my processing sketches/ projects.
+ <p>It's just for storing/ sharing some of my processing sketches/ projects.</p>
+ <br>
 
-
- Here are some examples:
+ <p>Here are some examples:</p>
 
  <a href="https://github.com/JannisElef/Processing/blob/main/minecraft_mosaic/"><strong>Minecraft-mosaic maker</strong></a>
 
- The sketch takes an image/ frames and displays them using minecraft block-textures by finding the closest matching texture for a given area using the average color of the area and texture.
+ <p>The sketch takes an image/ frames and displays them using minecraft block-textures by finding the closest matching texture for a given area using the average color of the area and texture.</p>
 
- ![alt text](https://github.com/JannisElef/Processing/blob/main/sketches/minecraft_mosaic/sample_image.png?raw=true)
+ <img src="https://github.com/JannisElef/Processing/blob/main/sketches/minecraft_mosaic/sample_image.png">
 
 
 <details>

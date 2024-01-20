@@ -1,6 +1,8 @@
 # Personal Processing Repository
  It's just for storing/ sharing some of my small processing sketches/ projects.
 
+ Here are some examples:
+
  ![minecraft mosaic maker (short: mmm)](https://github.com/JannisElef/Processing/blob/main/minecraft_mosaic/?raw=false)
 
  ![alt text](https://github.com/JannisElef/Processing/blob/main/minecraft_mosaic/sample_image.png?raw=true)

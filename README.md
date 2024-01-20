@@ -16,6 +16,14 @@
   <br>
   <ol>
 	<details>
+		<summary><a href="https://github.com/JannisElef/Processing/blob/main/sketches/text_shader/?raw=true"><strong> Text shader</strong></a></summary>
+		<ul>
+		<br>
+		<p>The sketch takes an image and draws letters with a variety of "dense-ness" according to the brightness of the image-area it replaces, furthermore the letter uses the image-area's color as fill:</p>
+		<img src="https://github.com/JannisElef/Processing/blob/main/sketches/text_shader/sample_image.png">
+     		</ul>
+	</details>
+	<details>
 		<summary><a href="https://github.com/JannisElef/Processing/blob/main/sketches/procedual_bauhaus_background_generator/?raw=true"><strong> Procedual bauhaus background generator</strong></a></summary>
 		<ul>
 		<br>

@@ -1,10 +1,10 @@
 # Personal Processing Repository
- It's just for storing/ sharing some of my small processing sketches/ projects.
+ It's just for storing/ sharing some of my processing sketches/ projects.
 
 
  Here are some examples:
 
- ![minecraft mosaic maker (short: mmm)](https://github.com/JannisElef/Processing/blob/main/minecraft_mosaic/?raw=false)
+ <a href="https://github.com/JannisElef/Processing/blob/main/minecraft_mosaic/"><strong>Minecraft-mosaic maker</strong></a>
 
  The sketch takes an image/ frames and displays them using minecraft block-textures by finding the closest matching texture for a given area using the average color of the area and texture.
 
@@ -12,14 +12,18 @@
 
 
 <details>
-  <summary>More Examples</summary>
+  <summary><strong>More Examples</strong></summary>
+  <br>
   <ol>
     <li>
-      <a href="https://github.com/JannisElef/Processing/blob/main/procedual_bauhaus_background_generator/?raw=false"> Procedual bauhaus background generator (idk)</a>
-	<p>Using pre-defined shapes and different palettes to generate a random and unique variety of images.</p>
-      <ul>
-	<details><summary>Example image</summary><img src="https://github.com/JannisElef/Processing/blob/main/procedual_bauhaus_background_generator/sample_image.png"></details>
-      </ul>
+      <details>
+	      <summary><a href="https://github.com/JannisElef/Processing/blob/main/procedual_bauhaus_background_generator/?raw=false"><strong> Procedual bauhaus background generator</strong></a></summary>
+		<ul>
+		<br>
+		<p>Using pre-defined shapes and different color palettes to generate a random and unique variety of images.</p>
+		<img src="https://github.com/JannisElef/Processing/blob/main/procedual_bauhaus_background_generator/sample_image.png">
+     		</ul>
+      </details>
     </li>
   </ol>
 </details>

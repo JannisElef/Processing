@@ -4,7 +4,7 @@
 
  <p>Here are some examples:</p>
 
- <a href="https://github.com/JannisElef/Processing/blob/main/minecraft_mosaic/"><strong>Minecraft-mosaic maker</strong></a>
+ <a href="https://github.com/JannisElef/Processing/blob/main/sketches/minecraft_mosaic/"><strong>Minecraft-mosaic maker</strong></a>
 
  <p>The sketch takes an image/ frames and displays them using minecraft block-textures by finding the closest matching texture for a given area using the average color of the area and texture.</p>
 

@@ -46,18 +46,20 @@
  <p>When wanting to try out a sketch, consider the following:</p>
 
 * Download the whole folder -> sketch needs to be inside its own folder to work
+* By default all input-files (images) are getting loaded from the `src/` folder and the outputs are saved into the `out/` folders in the sketch's folder
 * Generally the keyboard-shortcut for saving an image is **ENTER**
 * Other sketches may offer more key-functionality like in- or decreasing a sketch-cruital value with **UP** or **DOWN**
   --> more keyCodes, etc. depending on the sketch may be found in the function *keyPressed()* it's generally the last function in a sketch
-
-
+  
  ## My Processing IDE
 
  <p>The Processing IDE sucks, versions 4.x did come with more theme selection but the lack of font customization or features like auto-closing brackets is annoying. </p>
- <p>Using an external editor and running the sketches from the command line is just an temporary solution, the sweet "<strong>Run</strong>" button is just too convenient to miss out on.</p>
+ <p>Using an external editor and running the sketches from the command line is just a temporary solution, the sweet "<strong>Run</strong>" button is just too convenient to miss out on.</p>
  <br>
  
  So I've decided to dig through the `processing-4.x.x/lib/theme/theme.txt` and mark all important keyword-highlighting colors and primary UI-elements to make it more easy to edit/ customize them in the future, thereby also creating my own <a href="https://github.com/JannisElef/Processing/blob/main/theme.txt"><strong>theme.txt</strong></a>, to atleast squeeze out some customization.
+ 
+ To add upon this: I've created a bare-bone syntax-highlighting editor sketch where you can assign color values to the selected keyword, it's also creating it's own `theme.txt` file: <a href="https://github.com/JannisElef/Processing/blob/main/sketches/ThemeEditor/"><strong>ThemeEditor</strong></a>.
 
  \<Inspired by the <a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a> Theme\>
  

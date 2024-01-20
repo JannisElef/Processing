@@ -1,4 +1,4 @@
-# Personal Processing Repository
+## My Personal Processing Repository
  <p>It's just for storing/ sharing some of my processing sketches/ projects.</p>
  <br>
 
@@ -41,3 +41,13 @@
 	</details>
   </ol>
 </details>
+
+## Sketch-Use-Guidance
+
+ <p>When testing a sketch, consider the following:</p>
+
+* Download the whole folder -> sketch needs to be inside its own folder to work
+* Generally the keyboard-shortcut for saving an image is **ENTER**
+* Other sketches may offer more key-functionality like in- or decreasing a sketch-cruital value with **UP** or **DOWN**
+  --> more keyCodes, etc. depending on the sketch may be found in the function *keyPressed()* it's generally the last function in a sketch
+ <br>

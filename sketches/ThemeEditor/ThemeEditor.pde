@@ -94,11 +94,10 @@ void drawOverlay(int x_, int y_, int w_, int h_) {
 
 color getColValue(String s) {
   s = s.toUpperCase();
-  String out = "";
+  String out = "FF";
   for(int i = 0; i < 6; i++) { 
-    out += s.charAt(s.length() -1 -i);
+    out += s.charAt(s.length() -(6 -i));
   }
-  out += "FF";
   return unhex(out);
 }
 

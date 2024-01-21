@@ -61,6 +61,9 @@
  
  To add upon this: I've created a bare-bone syntax-highlighting editor sketch where you can assign color values to the selected keyword, it's also creating it's own `theme.txt` file: <a href="https://github.com/JannisElef/Processing/blob/main/sketches/ThemeEditor/"><strong>ThemeEditor</strong></a>.
 
- \<Inspired by the <a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a> Theme\>
- 
-<img src="https://github.com/JannisElef/Processing/blob/main/theme_screenshot.png">
+ <br>
+ <p>Example Themes:</p>
+
+|                                                                                             |                                                                                         |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+| ![](https://github.com/JannisElef/Processing/blob/main/theme_screenshot.png) <<a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a>> | ![](https://github.com/JannisElef/Processing/blob/main/theme_screenshot.png) <<a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a>> |

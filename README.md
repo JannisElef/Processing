@@ -66,4 +66,4 @@
 
 |                                                                                             |                                                                                         |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
-| ![](https://github.com/JannisElef/Processing/blob/main/theme_screenshot.png) <<a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a>> | ![](https://github.com/JannisElef/Processing/blob/main/theme_screenshot.png) <<a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a>> |
+| ![](https://github.com/JannisElef/Processing/blob/main/themes/theme_screenshot_gapstyle.png) <<a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a>> | ![](https://github.com/JannisElef/Processing/blob/main/themes/theme_screenshot_gapstyle.png) <<a href="https://github.com/gaplo917/GapStyle"><strong>GapStyle</strong></a>> |

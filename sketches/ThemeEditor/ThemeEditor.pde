@@ -1,4 +1,4 @@
-//saved theme.txt move from out/ to ---> processing-4.x.x/lib/theme/
+//copy text from theme.txt inside out/ to ---> processing-4.x.x/lib/theme/<Alloys or Minerals>/<some theme>.txt and select it in the theme selector
 //save with ENTER
 
 PImage template;
@@ -127,13 +127,13 @@ void saveConfig() {//                                                         | 
   String[] strings = loadStrings("themeTemplate.txt");
   for(int i = 0; i < arr.length; i++) { 
     if(i == 5) strings[arr[i] +1] = insertCol(strings[arr[i] +1], b[i].col);
-    if(i == 12) strings[arr[i] +1] = insertCol(strings[arr[i] +1], b[i].col);
+    if(i == 12) {strings[arr[i]] = insertCol(strings[arr[i]], b[i].col); strings[arr[i] +1] = insertCol(strings[arr[i] +1], b[i].col);}
     if(i == 13) {strings[arr[i]] = insertCol(strings[arr[i]], b[4].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[4].col);}
     if(i == 14) {strings[arr[i]] = insertCol(strings[arr[i]], b[8].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[8].col);}
     if(i == 15) {strings[arr[i]] = insertCol(strings[arr[i]], b[4].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[4].col);}
     if(i == 16) {strings[arr[i]] = insertCol(strings[arr[i]], b[7].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[7].col);}
     if(i == 17) {strings[arr[i]] = insertCol(strings[arr[i]], b[8].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[8].col);}
-    if(i < 12 ) strings[arr[i]] = insertCol(strings[arr[i]], b[i].col);
+    if(i < 12) strings[arr[i]] = insertCol(strings[arr[i]], b[i].col);
   }
   saveStrings("out\\theme.txt", strings);
   println("Theme saved");

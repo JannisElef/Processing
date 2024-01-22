@@ -64,6 +64,6 @@
  <br>
  <p>Example Themes:</p>
 
-|                                                                                             |                                                                                         |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+|                                                                                         |                                                                                         |
+| :-------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
 | ![](https://github.com/JannisElef/Processing/blob/main/themes/gapstyle_theme_screenshot.png) <<a href="https://github.com/JannisElef/Processing/blob/main/themes/gapstyle_theme.txt"><strong>GapStyle</strong></a>> | ![](https://github.com/JannisElef/Processing/blob/main/themes/onedark_theme_screenshot.png) <<a href="https://github.com/JannisElef/Processing/blob/main/themes/onedark_theme.txt"><strong>One Dark</strong></a>> |

@@ -37,12 +37,12 @@ toolbar.button.enabled.glyph = #ee961f
 toolbar.button.enabled.stroke = none
 toolbar.button.pressed.field = #f92672
 toolbar.button.pressed.glyph = #FFFFFE
-toolbar.button.pressed.stroke = #10c680
+toolbar.button.pressed.stroke = none
 toolbar.button.rollover.field = #666666
-toolbar.button.rollover.glyph = #98e12e
+toolbar.button.rollover.glyph = #F92672
 toolbar.button.rollover.stroke = none
 toolbar.button.selected.field = #f92672
-toolbar.button.selected.glyph = #10c680
+toolbar.button.selected.glyph = #10CB84
 toolbar.button.selected.stroke = none
 
 toolbar.button.debug.disabled.field = #000009
@@ -53,12 +53,12 @@ toolbar.button.debug.enabled.glyph = #DEE2DF
 toolbar.button.debug.enabled.stroke = none
 toolbar.button.debug.pressed.field = #909699
 toolbar.button.debug.pressed.glyph = #FFFFF2
-toolbar.button.debug.pressed.stroke = #60605B
+toolbar.button.debug.pressed.stroke = #98E12E
 toolbar.button.debug.rollover.field = #5B6165
-toolbar.button.debug.rollover.glyph = #FFFFF2
+toolbar.button.debug.rollover.glyph = #F92672
 toolbar.button.debug.rollover.stroke = none
 toolbar.button.debug.selected.field = #FFFFF2
-toolbar.button.debug.selected.glyph = #0075FF
+toolbar.button.debug.selected.glyph = #10CB84
 toolbar.button.debug.selected.stroke = none
 
 
@@ -131,7 +131,7 @@ console.scrollbar.color = #212121
 
 # foreground and background colors
 
-editor.fgcolor = #FFFFFF
+editor.fgcolor = #C9AD96
 editor.bgcolor = #2c2c2c
 
 editor.gradient.top = #0c0910
@@ -315,27 +315,27 @@ theme_selector.link.color = #57D0FF
 # For an explanation of these tags, see Token.java:
 # processing/app/src/processing/app/syntax/Token.java
 
-editor.token.function1.style = #FFFFFF,bold ##noStroke()##
-editor.token.function2.style = #FFFFFF,bold ##size()##
-editor.token.function3.style = #FFFFFF,bold ##if(), for()##
-editor.token.function4.style = #FFFFFF,bold ##setup, draw##
+editor.token.function1.style = #F92672,bold ##noStroke()##
+editor.token.function2.style = #66D9EF,bold ##size()##
+editor.token.function3.style = #F92672,bold ##if(), for()##
+editor.token.function4.style = #98E12E,bold ##setup, draw##
 
-editor.token.keyword1.style = #FFFFFF,bold ##public, extends, class##
-editor.token.keyword2.style = #FFFFFF,bold
-editor.token.keyword3.style = #FFFFFF,bold ##if, for##
-editor.token.keyword4.style = #FFFFFF,bold ##height##
-editor.token.keyword5.style = #FFFFFF,bold ##int, String##
-editor.token.keyword6.style = #FFFFFF,bold ##this##
+editor.token.keyword1.style = #F92672,bold ##public, extends, class##
+editor.token.keyword2.style = #F92672,bold ##array.length##
+editor.token.keyword3.style = #F92672,bold ##if, for##
+editor.token.keyword4.style = #10CB84,bold ##height##
+editor.token.keyword5.style = #F92672,bold ##int, String##
+editor.token.keyword6.style = #F92672,bold ##this##
 
-editor.token.literal1.style = #FFFFFF,bold ##string##
-editor.token.literal2.style = #FFFFFF,bold ##CORNERS##
+editor.token.literal1.style = #D1DA73,bold ##string##
+editor.token.literal2.style = #98E12E,bold ##CORNERS##
 
 editor.token.operator.style = #006698,bold
 
 editor.token.label.style = #c85b27,bold
 
-editor.token.comment1.style = #FFFFFF,bold
-editor.token.comment2.style = #FFFFFF,bold
+editor.token.comment1.style = #629755,bold
+editor.token.comment2.style = #629755,bold
 
 editor.token.invalid.style = #656565,bold
 

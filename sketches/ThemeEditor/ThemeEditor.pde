@@ -122,13 +122,18 @@ String insertCol(String s, color col) {
   return str;
 }
 
-void saveConfig() {
-  int arr[] = {133, 317, 318, 319, 320, 322, 324, 325, 326, 327, 329, 330, 336};
+void saveConfig() {//                                                         | buttons (play/ stop)
+  int arr[] = {133, 317, 318, 319, 320, 322, 324, 325, 326, 327, 329, 330, 336, 39, 41, 42, 44, 45};
   String[] strings = loadStrings("themeTemplate.txt");
   for(int i = 0; i < arr.length; i++) { 
     if(i == 5) strings[arr[i] +1] = insertCol(strings[arr[i] +1], b[i].col);
     if(i == 12) strings[arr[i] +1] = insertCol(strings[arr[i] +1], b[i].col);
-    strings[arr[i]] = insertCol(strings[arr[i]], b[i].col);
+    if(i == 13) {strings[arr[i]] = insertCol(strings[arr[i]], b[4].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[4].col);}
+    if(i == 14) {strings[arr[i]] = insertCol(strings[arr[i]], b[8].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[8].col);}
+    if(i == 15) {strings[arr[i]] = insertCol(strings[arr[i]], b[4].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[4].col);}
+    if(i == 16) {strings[arr[i]] = insertCol(strings[arr[i]], b[7].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[7].col);}
+    if(i == 17) {strings[arr[i]] = insertCol(strings[arr[i]], b[8].col); strings[arr[i] +16] = insertCol(strings[arr[i] +16], b[8].col);}
+    if(i < 12 ) strings[arr[i]] = insertCol(strings[arr[i]], b[i].col);
   }
   saveStrings("out\\theme.txt", strings);
   println("Theme saved");

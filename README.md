@@ -38,6 +38,14 @@
 		<img src="https://github.com/JannisElef/Processing/blob/main/sketches/kNN_Visualizer/sample_image.png">
      		</ul>
 	</details>
+	<details>
+		<summary><a href="https://github.com/JannisElef/Processing/blob/main/sketches/ransomnoteFontGenerator/?raw=true"><strong> Ransom Note Font Generator</strong></a></summary>
+		<ul>
+		<br>
+		<p>A sketch to generate a given text with random letters in the collage art/ ransom note style (e.g. "Hello World"):</p>
+		<img src="https://github.com/JannisElef/Processing/blob/main/sketches/ransomnoteFontGenerator/sample_image.png">
+     		</ul>
+	</details>
   </ol>
 </details>
 

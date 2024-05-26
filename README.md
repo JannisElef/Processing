@@ -6,7 +6,7 @@
  <a href="https://github.com/JannisElef/Processing/blob/main/sketches/halftone/"><strong>Halftone Shader</strong></a>
  <br>
 
- <p>The tiny drops of ink that form a printed picture are a cool method to break down an image into just 4 main colors (CMYK), the same effect also works well digitally:</p>
+ <p>Tiny drops of ink that form a complete picture, like in ink prints, comes close to arranging an image in pixels, it's a cool method of breaking down an image into 4 main colors (CMYK). The same effect also works well digitally:</p>
 
  <img src="https://github.com/JannisElef/Processing/blob/main/sketches/halftone/sample_image.png">
  <br>

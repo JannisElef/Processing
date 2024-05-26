@@ -3,6 +3,14 @@
  <p>Here are some of my favourite examples:</p>
  <br>
 
+ <a href="https://github.com/JannisElef/Processing/blob/main/sketches/halftone/"><strong>Halftone Shader</strong></a>
+ <br>
+
+ <p>The tiny drops of ink that form a printed picture are a cool method to break down an image into just 4 main colors (CMYK), the same effect also works well digitally:</p>
+
+ <img src="https://github.com/JannisElef/Processing/blob/main/sketches/halftone/sample_image.png">
+ <br>
+ 
  <a href="https://github.com/JannisElef/Processing/blob/main/sketches/minecraft_mosaic/"><strong>Minecraft-mosaic maker</strong></a>
  <br>
 

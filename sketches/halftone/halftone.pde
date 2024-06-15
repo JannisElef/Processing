@@ -6,8 +6,8 @@ Agent M;
 Agent Y;
 Agent K;
 
-int cnt_x = 700;
-int cnt_y = 700; 
+int cnt_x = 500;
+int cnt_y = 500; 
 
 int add = 0;
 
@@ -45,17 +45,9 @@ void draw() {
   //background(#ffffff);
   
   result = createGraphics(width, height);
-  result.beginDraw();
-  result.background(#ffffff);
+  drawResult();
   
-  result.image(drawGrid(width/9.13, -height/11.2215, cnt_x, cnt_y, img, 0.2, C, #00ffff), 0, 0);
-  result.image(drawGrid(-width/11.2215, height/9.13, cnt_x, cnt_y, img, -0.2, M, #ff00ff), 0, 0);
-  result.image(drawGrid(-width/6.46, height/4.26, cnt_x, cnt_y, img, -0.4, Y, #ffff00), 0, 0);
-  result.image(drawGrid(width/4.26, -height/6.46, cnt_x, cnt_y, img, 0.4, K, #000000), 0, 0);
-  
-  result.endDraw();
-  
-  image(result, 0, 0);
+  image(result, -width/5, -height/5);
   //noFill();
   //stroke(#00ff00);
   //strokeWeight(2);
@@ -104,8 +96,57 @@ PImage makeSquare(PImage src) {
   return pg.get();
 }
 
+PImage c;
+PImage y;
+PImage m;
+PImage k;
+int flag = 0;
+
+void drawResult() {  
+  thread("drawC");
+  thread("drawM");
+  thread("drawY");
+  thread("drawK");
+  
+  while(flag != 4) delay(1);
+  
+  result.beginDraw();
+  result.background(#ffffff);
+  
+  result.image(c, 0, 0);
+  result.image(m, 0, 0);
+  result.image(y, 0, 0);
+  result.image(k, 0, 0);
+  
+  result.endDraw();
+}
+
+void drawC() {
+  c = createImage(img.width *2, img.height *2, RGB);
+  c = drawGrid(width/9.13, -height/11.2215, cnt_x, cnt_y, img, 0.2, C, #00ffff);
+  flag++;
+}
+
+void drawM() {
+  m = createImage(img.width *2, img.height *2, RGB);
+  m = drawGrid(-width/11.2215, height/9.13, cnt_x, cnt_y, img, -0.2, M, #ff00ff);
+  flag++;
+}
+
+void drawY() {
+  y = createImage(img.width *2, img.height *2, RGB);
+  y = drawGrid(-width/6.46, height/4.26, cnt_x, cnt_y, img, -0.4, Y, #ffff00);
+  flag++;
+}
+
+void drawK() {
+  k = createImage(img.width *2, img.height *2, RGB);
+  k = drawGrid(width/4.26, -height/6.46, cnt_x, cnt_y, img, 0.4, K, #000000);
+  flag++;
+}
+
 void export() {
-  PImage out = get(width/5, height/5, width -((width/5)*2), height -((height/5)*2));
+  PImage out = get(0, 0, width -((width/5)*2), height -((height/5)*2));
   String msg = "" + img.width + "x" + img.height + "x" + scale + "+" + add + "_" + cnt_x + "." + cnt_y + "_" + hex(int(random(Integer.MAX_VALUE))) + ".png";
   out.save(sketchPath() + "\\out\\" + msg);
   println("exported: " + msg);

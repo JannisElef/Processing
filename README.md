@@ -19,7 +19,7 @@
  <img src="https://github.com/JannisElef/Processing/blob/main/sketches/minecraft_mosaic/sample_image.png">
  <br>
 <details>
-  <summary><strong>More Examples</strong></summary>
+  <summary><strong>More Examples &#x2B05; &#x2B05; &#x2B05;</strong></summary>
   <br>
   <ol>
 	<details>
